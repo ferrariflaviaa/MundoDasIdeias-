@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Coleção</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id= "logo" src="imagens/logooff.svg" alt="logo do mundo das ideias"><br>
+    <div class="menu">
+        <a href="home.html">Home</a>
+        <a href="historia.html">Historia</a>
+        <a href="avaliacao.html">Avaliação</a>
+        <a href="premios.html">Prêmios</a>
+        <a href="minhacolecao.html">Minha Coleção</a>
+    </div> <br> <br>
+
+    <form>
+        <div class="formulario">
+            <label> <b>Livro:</b></label> 
+            <select name="livroescolha" id="livroescolha">
+                <option>Cabana</option>
+                <option>Futuro Presente: O mundo movido à tecnologia</option>
+                <option>Jogos Vorazes</option>
+                <option>Quem é você, Alasca</option>
+                <option>A Era do Capitalismo de Vigilância</option>
+                <option>Rainha Má</option>
+            </select><br><br>
+            <label><b>Sua Nota:</b></label>
+            <select name="nota" id="nota">
+                <option>5</option>
+                <option>4</option>
+                <option>3</option>
+                <option>2</option>
+                <option>1</option>
+            </select><br><br>
+            <label><b>Sua Satisfação:</b></label><br>
+            <input type="radio" name="Otima" id="Otima">
+            <label>Otima</label>
+            <input type="radio" name="Bom" id="Bom">
+            <label>Bom</label>
+            <input type="radio" name="Mediano" id="Mediano">
+            <label>Mediano</label>
+            <input type="radio" name="Pessimo" id="Pessimo">
+            <label>Péssimo</label> <br>
+            <label><b>Gênero:</b></label><br>
+            <input type="checkbox">
+            <label>Ficção Literária</label>
+            <input type="checkbox">
+            <label>Ficção Científica</label>
+            <input type="checkbox">
+            <label>Fantasia</label>
+            <input type="checkbox">
+            <label>Horror</label>
+        </div>
+        <button class="botao">Enviar</button>
+    </form>
+    <br><br>
+    <div class="menu">
+        <table border = "1" class="tabela">
+            <tr>
+                <th>Horário</th>
+                <th>Local</th>
+                <th>Contato</th>
+            </tr>
+            <tr>
+                <td>Segunda a Sexta <br> 8h a 18h</td>
+                <td>Rua Luiter 1001 <br> Centro</td>
+                <td>Reservas: <br> (xx)x xxxx-xxxx</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
